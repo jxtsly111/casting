@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+ img{
+    height: 130px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-top:25px ;
+
+}
+.login-middle{
+    height: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px 16px 40px 16px;
+    transform: translateZ(0);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-text p{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.btn1{
+    background-color: #5B7BD5;
+    
+    width: 300px;
+    font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-shadow: 0 -1px 0 #354C8C;
+    font-weight: 500;
+    margin-left: 4px;
+    margin-top: 5px;
+    padding: 0 0px 0 0px;
+    border: none;
+    text-align: center;
+    line-height: 34px;
+    white-space: nowrap;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #FFF;
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-image: linear-gradient(#5B7BD5, #4864B1);
+    
+
+}
+.btn2{
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    width: 300px;
+    margin-left: 4px;
+    margin-top: 5px;
+    border: 2px solid #eee;
+    padding: 0 0px 0 0px;
+    border: none;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 0.2em;
+    font-size: 16px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.login-text2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.login-text3{
+    background: #f2f2f2;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+
+
+}
+input[type="email"]{
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-bottom: 1px solid #333;
+    background: none;
+    padding: 16px 0 16px 16px;
+    font-size: 24px;
+    outline: 0;
+    width: 100%;
+    line-height: 1.15;
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    transition: 0.4;
+}
+input[type="email"]:focus{
+    border-bottom: 1px solid purple;
+}
+label{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   color: #333;
+   line-height: 1.5;
+   text-transform: uppercase;
+   font-size: 14px;
+   letter-spacing: .0875em;
+   font-weight: 500;
+   text-align: left;
+   color: rgba(51, 51, 51, 0.3);
+   text-align: left;
+   margin-bottom: 25px;
+}
+input[type="password"]{
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-bottom: 1px solid #333;
+    background: none;
+    padding: 16px 0 16px 16px;
+    font-size: 24px;
+    outline: 0;
+    width: 100%;
+    line-height: 1.15;
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    transition: 0.4;
+}
+input[type="password"]:focus{
+    border-bottom: 1px solid purple;
+}
+
+.btn3{
+    border: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .0875em;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    outline: 0;
+    background: linear-gradient(-25deg, #7352ff, #ff2d68) !important;
+    margin-top: 10px;
+    text-align: center;
+    padding: 11px 30px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.login-link a{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    background-color: transparent;
+    
+
+}
+.login-text4{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    background-color: transparent;
+
+}
+
+

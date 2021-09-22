@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 90px;
+    width: 100%;
+    background: #fcfcfc;
+    background-attachment: fixed;
+    border-bottom: 1px solid #f2f2f2;
+   
+
+}
+ .logo img{
+    height: 70px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.header > .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-container > .nav-link1 > a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    visibility: visible;
+    padding-top: 29px;
+    padding-left: 20px;
+    margin-left: 70px;
+
+}
+.header-container > .nav-link2 > a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    visibility: visible;
+    padding-top: 29px;
+    padding-left: 20px;
+    margin-right: 15px;
+
+}
+.header-container > .nav-link3 > a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    visibility: visible;
+    padding-top: 29px;
+    padding-left: 20px;
+    margin-right: 15px;
+
+}
+.header-container > .nav-link4 > a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    visibility: visible;
+    padding-top: 29px;
+    padding-left: 20px;
+    margin-right: 15px;
+
+}
+.header-container > .nav-link5 > a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    visibility: visible;
+    padding-top: 29px;
+    padding-left: 20px;
+    margin-right: 40px;
+
+}
+.header-container > .social > i{
+    color: #222222;
+    font-size: 40px;
+    font-weight: 500px;
+    margin-right: 100px;
+}
+.middle{
+    height: 600px;
+    width: 100%;
+    background:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(/cast.png);
+background-repeat:no-repeat ;
+background-position: center bottom;
+background-size: cover; 
+}
+.middle > .middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.middle-container > .middle-button button {
+    margin-top: 15px;
+    background: linear-gradient(-25deg, #7352ff, #ff2d68) !important;
+border-radius: 5px;
+color: #fff;
+width: 280px;
+height: 50px;
+border: none;
+
+}
+.middle-container > .middle-button button a{
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+position: relative;
+letter-spacing: normal;
+line-height: normal;
+font-size: 1.5rem;
+text-decoration: none;
+
+}
+.middle-container > .middle-text2 p{
+    margin-top: 1px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.middle-container > .middle-text1 p{
+    margin-top: 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+font-weight: 600;
+font-size: 70px;
+}
+.bottom{
+    height: 170px;
+    width: 100%;
+    background: rgba(21, 21, 21, 0.8);
+
+
+}
+.bottom-container{
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding: 50px; 
+}
+.bottom-container  > .bottom-text p{
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: .5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+}
+
+.bottom-container  > .bottom-link a{
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: .5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 2px #ffff solid;
+    
+}
+
+.bottom-middle{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/jobsbg.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/jobsbg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.bottom-middle p{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 26px;
+    color: white;
+
+}
+.hero{
+    height: 250px;
+    width: 100%;
+    background: rgba(21, 21, 21, 0.8);
+    border-bottom: 6px solid  #7352ff;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.hero-container > .hero-button button {
+    margin-top: 15px;
+    background: linear-gradient(-25deg, #7352ff, #ff2d68) ;
+border-radius: 5px;
+color: #fff;
+width: 150px;
+height: 40px;
+border: none;
+}
+.hero-container > .hero-button button a{
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+position: relative;
+letter-spacing: normal;
+line-height: normal;
+font-size: 1rem;
+text-decoration: none;
+
+}
+.hero-container > .hero-text2 p{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 14px;
+line-height: 21px;
+}
+.hero-container > .hero-text1 p{
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+font-weight: 600;
+font-size: 26px;
+margin-bottom: 20px;
+
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.footer-image{
+    margin-bottom: 50px;
+}
+.footer-social{
+    display: flex;
+}
+.footer-social i{
+    color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px ;
+    margin-left: 50px;
+    font-size: 1.8rem;
+    transition: 0.3s;
+}
+.footer-social i:hover{
+color: #c5349c;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #ffff;
+    margin-bottom: 400px;
+    font-size: 1.3rem;
+    margin-left: 70px;
+    
+}
+.footer-copyright{
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 40px;
+}
+
+
+

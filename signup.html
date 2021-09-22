@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup casting</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="signup">
+        <div class="login-middle">
+            <div class="login-image">
+                <img src="logo.png" alt="logo">
+            </div>
+
+            <div class="login-text">
+                <p>NEW ACCOUNT</p>
+            </div>
+
+            <div class="signup-link">
+                <a href="#">already a member?sign in here</a>
+            </div>
+
+            <div class="login-text2">
+                <p>We dont post anything without your permission</p>
+            </div>
+
+            <div class="login-button2">
+                <input type="submit" value="login with Google"class="btn2 btn-primary">
+            </div>
+
+            <div class="login-text3">
+                <p>OR</p>
+            </div>
+            <div class="form-control">
+                <input type="text" name="firstname" placeholder="" required>
+                <div>
+                <label for="Email">First Name</label>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <input type="text" name="lAST Name" placeholder="" required>
+                <div>
+                <label for="fullname">Last Name</label>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <input type="Email" name="Email" placeholder="" required>
+                <div>
+                <label for="fullname">Email Address</label>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <input type="password" name="password" placeholder="" required>
+                <div>
+                <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+            </div>
+
+            <div class="form-control">
+                <input type="password" name="password" placeholder="" required>
+                <div>
+                <label for="password">Repeat Password</label>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</div>
+
+<div class="login-button3">
+    <input type="submit" value="CREATE ACCOUNT"class="btn3 btn-primary">
+</div>
+        </div>
+    </div>
+    
+</body>
+</html>

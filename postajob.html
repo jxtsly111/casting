@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post A Job</title>
+    <link rel="stylesheet" href="postajob.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a><img src="/logo.png" alt="logo"></a>
+            </div>
+
+            
+
+                <div class="nav-link1">
+                    <a href="#">AUDITIONS & JOB</a>
+                </div>
+
+                <div class="nav-link2">
+                     <a href="#">TALENT DIRECTORY</a>
+                </div>
+
+                <div class="nav-link3">
+                    <a href="#">POST A JOB</a>
+                </div>
+
+                <div class="nav-link4">
+                    <a href="login.html">LOG IN</a>
+                </div>
+                <div class="nav-link5">
+                    <a href="signup.html">SIGN UP</a>
+                </div>
+
+            
+
+            <div class="social">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="postajob">
+        <div class="postajob-container">
+            <div class="postajob-text">
+                <h3>Post A Job</h3>
+            </div>
+
+            <div class="postajob-text2">
+                <p>We'll automatically create an account for you once you've posted a job on our website. Already have an account? <a href="#">login here</a></p>
+            </div>
+
+            <div class="postajob-form">
+                <div class="postajob-form-text">
+                    <p>Your Details *</p>
+                </div>
+                <div class="form-control">
+                    <div>
+                        <label for="First Name">First Name</label>
+                        </div>
+                    <input type="text" name="firstname" placeholder="First Name" required>
+                </div>
+    
+                <div class="form-control">
+                    <div>
+                        <label for="Last Name">Last Name</label>
+                        </div>
+                    <input type="text" name="lAST Name" placeholder="Last Name" required>
+                </div>
+    
+                <div class="form-control">
+                    <div>
+                        <label for="Email">Email</label>
+                        </div>
+                    <input type="Email" name="Email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <div>
+                        <label for="Company Name">Company name</label>
+                        </div>
+                    <input type="text" name="Company Name" placeholder="Company Name" required>
+                </div>
+    
+                <div class="form-control">
+                    <div>
+                        <label for="password">Password</label>
+                        </div>
+                    <input type="password" name="password" placeholder="Password" required>
+                    
+                </div>
+                <div class="check">
+                   
+    
+                <div class="form-control">
+                    <div>
+                    <label for="password">Confirm Password</label>
+                    </div>
+                    <input type="password" name="password" placeholder="Confirm Password" required>
+                    
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="postajob-text3">
+        <p>Job Details</p>
+    </div>
+
+    <div class="postajob-text4">
+        <p>Job Title *</p>
+    </div>
+
+    <div class="form-control2">
+        <input type="text" name="Job title" placeholder="Job Title" required>
+    </div>
+
+    <div class="postajob-text4">
+        <p>Job Description </p>
+    </div>
+    <div class="form-control2">
+        <textarea id="Job Description" name="Job Description" rows="4" cols="50">
+Job Description
+            </textarea>
+    </div>
+
+    <div class="postajob-text4">
+        <p>categories* </p>
+    </div>
+
+    <!-- <div class="dropdown">
+    <div class="form-control2">
+        <input type="text" name="Categories" placeholder="Please select" required>
+    </div>
+    <div class="list">
+        <ol>
+            <li>Modelling</li>
+            <li>Acting</li>
+            <li>Singing</li>
+            <li>Dancing</li>
+            <li>Reality Tv</li>
+            <li>Musician</li>
+            <li>Athlete</li>
+            <li>Game shows</li>
+            <li>Work from home</li>
+        </ol>
+    </div>
+    </div> -->
+
+    <form action="/action_page.php">
+        <select id="talents" name="talents">
+          <option value="moddeling">modelling</option>
+          <option value="Acting">Acting</option>
+          <option value="Singing">Singing</option>
+          <option value="Dancing">Dancing</option>
+          <option value="Reality">Reality</option>
+          <option value="Musician">Musician</option>
+          <option value="Athlete">Athlete</option>
+          <option value="Game shows">Game shows</option>
+        </select>
+      </form>
+
+      <div class="country">
+          <div class="country-container">
+            <div class="postajob-text4">
+                <p>country* </p>
+            </div>
+            <form action="/action_page.php">
+                <select id="talents" name="talents">
+                  <option value="United kingdom">United kingdom</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Denmark">Denmark</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Mali">Mali</option>
+                  <option value="United state Of American">United state Of American</option>
+                  <option value="Gambia">Gambia</option>
+                </select>
+              </form>
+        
+            </div>
+
+            <div class="city-container">
+                <div class="postajob-text4">
+                    <p>City* </p>
+                </div>
+                <form action="/action_page.php">
+                    <select id="talents" name="talents">
+                      <option value="United kingdom">United kingdom</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Russia">Russia</option>
+                      <option value="Mali">Mali</option>
+                      <option value="United state Of American">United state Of American</option>
+                      <option value="Gambia">Gambia</option>
+                    </select>
+                  </form>
+            </div>
+      </div>
+
+
+
+    
+
+
+    </div>
+    
+</body>
+</html>

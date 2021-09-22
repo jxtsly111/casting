@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.postajob{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    font-weight: 400;
+    color: #555555;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    background-color: #fff;
+}
+.postajob-container{
+    height: 100%;
+    width: 1240px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.postajob-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #091d25;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.postajob-text2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #555555;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+    margin-right: 320px;
+}
+.postajob-text2 p a{
+    color: purple;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    
+}
+.postajob-form{
+    height: 100%;
+    width:1200px ;
+    background-color: #eee;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #555555;
+    font-size: 16px;
+    line-height: 27px;
+}
+.postajob-form-text p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 550;
+    text-align: left;
+    color: #506982;
+    border-bottom: 1px solid #506982;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+
+}
+label{
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #555555;
+    font-size: 16px;
+    line-height: 27px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    padding: 12px;
+    border: 1px solid #c6c6c6;
+    width: 100%;
+    margin-bottom: 18px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    height: 20px;
+    border-radius: 5px;
+}
+.postajob-text3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: left;
+    color: #506982;
+    border-bottom: 1px solid #506982;
+    width: 1200px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 90px;
+}
+.postajob-text4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 90px;
+}
+.form-control2 > input[type="text"]{
+    padding: 12px;
+    border: 1px solid #c6c6c6;
+    width: 1180px;
+    margin-bottom: 18px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+textarea{
+    outline: none;
+border-color: #9FB1C1;
+resize: none;
+height: 200px;
+padding: 12px;
+border: 1px solid #c6c6c6;
+width: 100%;
+margin-bottom: 18px;
+color: #888;
+font-size: 16px;
+font-weight: 300;
+border-radius: 5px;
+text-align: left;
+margin-top: 6px;
+margin-left: 90px;
+margin-top: 15px;
+width: 1180px;
+}
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.list li{
+ color:  #555555;
+  position: absolute; 
+  background-color: #f9f9f9;
+  width: 1180px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+.list li:hover{ 
+background-color: blue;
+}
+.dropdown:hover .list {
+    display: block;
+  }
+  .dropdown:hover .formcontrol2 {
+    background-color: #3e8e41;
+  } */
+
+  select{
+    padding: 12px;
+    border: 1px solid #c6c6c6;
+    width: 1180px;
+    margin-bottom: 18px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .country select{
+    padding: 12px;
+    border: 1px solid #c6c6c6;
+    width: 500px;
+    margin-bottom: 18px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .country{
+      display: flex;
+  }
+  .country > .postajob-text4 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 90px;
+    
+  }

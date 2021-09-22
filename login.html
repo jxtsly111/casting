@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login casting Talent,Action </title>
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+    <div class="login">
+        <div class="login-middle">
+            <div class="login-image">
+                <img src="logo.png" alt="logo">
+            </div>
+
+            <div class="login-text">
+                <p>LOGIN</p>
+            </div>
+
+            <div class="login-button">
+                <div class="login-button1">
+                    <input type="submit" value="login with facebook"class="btn1 btn-primary">
+                </div>
+
+                <div class="login-button2">
+                    <input type="submit" value="login with Google"class="btn2 btn-primary">
+                </div>
+            </div>
+
+            <div class="login-text2">
+                <p>We dont post anything without your permission</p>
+            </div>
+
+            <div class="login-text3">
+                <p>OR</p>
+            </div>
+
+            <div class="form-control">
+                <input type="Email" name="Email" placeholder="" required>
+                <div>
+                <label for="Email ">Email Address</label>
+                </div>
+            </div>
+
+            <div class="form-control">
+                <input type="password" name="password" placeholder="" required>
+                <div>
+                <label for="password">Password</label>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+            </div>
+
+            <div class="login-button3">
+                <input type="submit" value="LOGIN"class="btn3 btn-primary">
+            </div>
+
+            <div class="login-link">
+               <a href="#">Forgotten Your Password</a>
+            </div>
+
+            <div class="login-text4">
+                <p>Not a Member?<a href="#">sign up now</a> </p>
+            </div>
+        </div>
+
+       
+    </div>
+</body>
+</html>
